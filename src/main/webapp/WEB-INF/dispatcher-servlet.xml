@@ -47,4 +47,7 @@
 
     <tx:annotation-driven transaction-manager="myTransactionManager" />
 
+    <!-- Add support for reading web resources: css,inages, etc ... -->
+    <mvc:resources mapping="/resources/**" location="/WEB-INF/resources/"/>
+
 </beans>
