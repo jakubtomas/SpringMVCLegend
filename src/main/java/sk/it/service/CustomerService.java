@@ -1,11 +1,10 @@
-package sk.it.dao;
+package sk.it.service;
 
 import sk.it.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
-
+public interface CustomerService {
     public List<Customer> getCustomers();
 
     void saveCustomer(Customer customer);
